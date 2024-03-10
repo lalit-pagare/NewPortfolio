@@ -1,0 +1,337 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Gilroy;
+  src: url(../gilroy/Gilroy-ExtraBold.ttf);
+}
+@font-face {
+  font-family: Gilroy-regular;
+  src: url(../gilroy/Gilroy-Regular.ttf);
+}
+@font-face {
+  font-family: Gilroy-Light;
+  src: url(../gilroy/Gilroy-Light.ttf);
+}
+@font-face {
+  font-family: Gilroy-SemiBold;
+  src: url(../gilroy/Gilroy-SemiBold.ttf);
+}
+/* HOME PAGE CSS  */
+* {
+  font-family: "Gilroy";
+  /* cursor: none; */
+}
+.mostly-customized-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #aaa; /* or add it to the track */
+}
+
+nav ul li {
+  font-family: "Gilroy-SemiBold";
+}
+#cursor {
+  height: 25px;
+  width: 25px;
+  filter: drop-shadow(0 0 0.75rem #ff2e63);
+  /* filter: drop-shadow(0 -6mm 4mm #ff2e63); */
+  /* filter: drop-shadow(30px 10px 4px#ff2e63); */
+  background-color: #ff2e63;
+  opacity: 75%;
+  border-radius: 50%;
+  position: fixed;
+  z-index: -1;
+  transition: all ease 0.1s;
+}
+#lalit {
+  color: #08d9d6;
+}
+#developer {
+  color: #ff2e63;
+}
+#button {
+  background: #252a34;
+  color: #eaeaea;
+  border: none;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+#button:hover {
+  color: #252a34;
+}
+#button::after {
+  content: "";
+  background: #eaeaea;
+  position: absolute;
+  z-index: -1;
+}
+#button::after {
+  transition: all 0.35s;
+}
+#button:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.35s;
+}
+#button::after {
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+}
+#icon-l {
+  transition: all ease 0.2s;
+}
+#icon-l:hover {
+  filter: brightness(0) saturate(100%) invert(50%) sepia(99%) saturate(2639%)
+    hue-rotate(187deg) brightness(93%) contrast(94%);
+
+  scale: 1.1;
+}
+#icon-i {
+  transition: all ease 0.2s;
+}
+#icon-i:hover {
+  filter: brightness(0) saturate(100%) invert(36%) sepia(87%) saturate(1649%)
+    hue-rotate(315deg) brightness(97%) contrast(85%);
+  scale: 1.1;
+}
+#icon-s {
+  transition: all ease 0.2s;
+}
+#icon-s:hover {
+  filter: brightness(0) saturate(100%) invert(30%) sepia(25%) saturate(6815%)
+    hue-rotate(6deg) brightness(94%) contrast(88%);
+  scale: 1.1;
+}
+#icon-g {
+  transition: all ease 0.2s;
+}
+#icon-g:hover {
+  filter: brightness(0) saturate(100%) invert(53%) sepia(82%) saturate(6744%)
+    hue-rotate(243deg) brightness(100%) contrast(91%);
+  scale: 1.1;
+}
+#change-text {
+  transition: all ease 0.4s;
+}
+#radial-bar {
+  height: 12px;
+  width: 5%;
+  background-color: #08d9d6;
+  border-radius: 12px;
+}
+#skills {
+  height: 280vh;
+}
+#percent {
+  font-family: "Gilroy-semibold";
+}
+#progress-card {
+  height: 140px;
+  background-color: transparent;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 30%;
+}
+#progress-bar1,
+#progress-bar2,
+#progress-bar3,
+#progress-bar4,
+#progress-bar5,
+#progress-bar6,
+#progress-bar7,
+#progress-bar8,
+#progress-bar9,
+#progress-bar10,
+#progress-bar11,
+#progress-bar12,
+#progress-bar13,
+#progress-bar14,
+#progress-bar15,
+#progress-bar16,
+#progress-bar17,
+#progress-bar18,
+#progress-bar19,
+#progress-bar20,
+#progress-bar21,
+#progress-bar22,
+#progress-bar23 {
+  transition: all ease 4s;
+  height: 5px;
+  background-color: red;
+  width: 60%;
+}
+#progress-bar1 {
+  width: 0%;
+  background-color: #69db7c;
+}
+#progress-bar2 {
+  width: 0%;
+  background-color: #4dabf7;
+}
+#progress-bar3 {
+  width: 0%;
+  background-color: #1971c2;
+}
+#progress-bar4 {
+  width: 0%;
+  background-color: #ced4da;
+}
+#progress-bar5 {
+  width: 0%;
+  background-color: #ffd43b;
+}
+#progress-bar6 {
+  width: 0%;
+  background-color: #fa5252;
+}
+#progress-bar7 {
+  width: 0%;
+  background-color: #74c0fc;
+}
+#progress-bar8 {
+  width: 0%;
+  background-color: #a9e34b;
+}
+#progress-bar9 {
+  width: 0%;
+  background-color: #7048e8;
+}
+#progress-bar10 {
+  width: 0%;
+  background-color: #495057;
+}
+#progress-bar11 {
+  width: 0%;
+  background-color: #339af0;
+}
+#progress-bar12 {
+  width: 0%;
+  background-color: #868e96;
+}
+#progress-bar13 {
+  width: 0%;
+  background-color: #b2f2bb;
+}
+#progress-bar14 {
+  width: 0%;
+  background-color: #1864ab;
+}
+#progress-bar15 {
+  width: 0%;
+  background-color: #fd7e14;
+}
+#progress-bar16 {
+  width: 0%;
+  background-color: #74b816;
+}
+#progress-bar17 {
+  width: 0%;
+  background-color: #66d9e8;
+}
+#progress-bar18 {
+  width: 0%;
+  background-color: #38d9a9;
+}
+#progress-bar19 {
+  width: 0%;
+  background-color: #f03e3e;
+}
+#progress-bar20 {
+  width: 0%;
+  background-color: #51cf66;
+}
+#progress-bar21 {
+  width: 0%;
+  background-color: #74c0fc;
+}
+#progress-bar22 {
+  width: 0%;
+  background-color: #f03e3e;
+}
+#progress-bar23 {
+  width: 0%;
+  background-color: #ffd43b;
+}
+
+#percent {
+  margin-right: 20px;
+}
+#footer {
+  color: #eaeaea;
+  /* border-bottom: #08d9d6; */
+}
+
+/* WORKS PAGE CSS  */
+#radial-bar1 {
+  height: 12px;
+  width: 7%;
+  background-color: #08d9d6;
+  border-radius: 12px;
+}
+#radial-bar2 {
+  height: 12px;
+  width: 7%;
+  background-color: #ff2e63;
+  border-radius: 12px;
+}
+#quolomb {
+  height: 100vh;
+  /* font-family: "Gilroy-regular"; */
+}
+#quolomb > p {
+  height: 100vh;
+  font-family: "Gilroy-regular";
+}
+#pr-gif1,
+#pr-gif2,
+#pr-gif3,
+#pr-gif4 {
+  height: 180px;
+  scale: 1;
+  position: relative;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  /* z-index: -10; */
+  /* left: 100px; */
+  /* position: absolute; */
+  transition: all ease 0.4s;
+}
+
+#pro-btn {
+  display: flex;
+  gap: 2px;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #252a34;
+  color: #eaeaea;
+  transition: all ease 0.5s;
+}
+#pro-btn:hover {
+  background-color: #eaeaea;
+  color: #252a34;
+}
+
+/* ABOUT PAGE  */
+#btn-down {
+  background-color: #252a34;
+  color: #eaeaea;
+  transition: all ease 0.4s;
+  /* width: 10%; */
+}
+#btn-down:hover {
+  background-color: #eaeaea;
+  color: #252a34;
+  /* width: 35%; */
+}
+#heading-p > p {
+  font-family: "Gilroy-regular";
+}
+
+/* RESPONSIVE BREAKERPOINTS */

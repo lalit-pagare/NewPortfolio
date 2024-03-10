@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lalit's Protfolio | Home</title>
+    <link rel="icon" type="image/x-icon" href="./assets/Nav-image.png"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="text-center p-12 bg-slate-300 rounded-3xl m-12 absolute z-20" id="mobile">Currenlty working for mobile devices👨‍💻, Please open this webpage on your desktop or laptop for better experience!!😀</div>
+    <div id="cursor"></div>
+    <div class=" p-14" id="main">
+      <nav class="flex justify-between" data-scroll>
+        <span><img class="h-16" src="./assets/Project 2_3.png" alt="" /></span>
+        <ul class="flex gap-5">
+          <a href="./"><li id="home" class="text-xl transition ease delay-150 hover:opacity-50 hover:scale-110">HOME</li></a>
+          <a href="./work.html"><li id="work" class="text-xl transition ease delay-150 hover:opacity-50 hover:scale-110">WORKS</li></a>
+          <a href="./about.html"><li id="about" class="text-xl transition ease delay-150 hover:opacity-50 hover:scale-110">ABOUT</li></a>
+        </ul>
+      </nav>
+      <div class="p-12 pt-6 font-extrabold " id="container" data-scroll data-scroll-speed="4">
+        <h1 class="text-8xl leading-tight ">
+          I'm <span class="" id="lalit">Lalit,</span>
+        </h1>
+        <h1 class="text-8xl">
+          <span id="change-text">FULL STACK</span
+          ><span id="developer"><br />DEVELOPER</span>
+        </h1>
+        <div id="bottom" class="flex flex-wrap gap-32">
+          <div class="flex gap-5 pt-10" id="social">
+            <a
+              href="https://www.linkedin.com/in/lalit-pagare-b4926b228"
+              target="_blank"
+              ><img
+                id="icon-l"
+                class="h-10"
+                src="./assets/linkedin-box-fill.svg"
+                alt="linkedin"
+            /></a>
+            <a href="https://www.instagram.com/lalit_devl/" target="_blank"
+              ><img
+                id="icon-i"
+                class="h-10"
+                src="./assets/instagram-fill.svg"
+                alt="Instagram"
+            /></a>
+            <a
+              href="https://stackoverflow.com/users/23515297/lalit-pagare"
+              target="_blank"
+              ><img
+                id="icon-s"
+                class="h-10"
+                src="./assets/stack-fill.svg"
+                alt="Stack over flow"
+            /></a>
+            <a href="https://github.com/lalit-pagare" target="_blank"
+              ><img
+                id="icon-g"
+                class="h-10"
+                src="./assets/github-fill.svg"
+                alt="Github"
+            /></a>
+          </div>
+          <button
+            id="button"
+            class="px-14 py-1 mt-8 rounded-full hover:bg-white slide_from_left"
+          ><a href="./work.html">
+            Explore my works...
+          </a>
+          </button>
+          <img
+            class="h-6 mt-12 animate__animated animate__bounce animate__delay-5s animate__infinite infinite"
+            src="./assets/scroll-to-bottom-line.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="skills" class="p-14" data-scroll>
+        <h2 class="text-5xl font-extrabold" data-scroll-direction="2" >SKILLS</h2>
+        <div id="radial-bar" data-scroll-direction="6"></div>
+        <div
+          id="progress-tables"
+          class="flex mt-20 flex-wrap gap-x-12 gap-y-10" >
+          <div id="progress-card" class="rounded-3xl" data-scroll data-scroll-speed="2" >
+            <a href="https://nodejs.org" target="_blank">
+            <img
+              class="h-16 my-4 mx-6 "
+              src="/assets/885px-Node.js_logo.svg.png"
+              alt=""
+            />
+            <div class="flex items-center ">
+            </a>  
+              <div id="progress-bar1" class="mx-6 rounded-3xl"></div>
+              <span id="percent">%60</span>
+              </div>
+            </div>
+          <div id="progress-card" class="rounded-3xl" data-scroll data-scroll-speed="2">
+            <a href="https://react.dev/" target="_blank">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/1174949_js_react js_logo_react_react native_icon.png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar2" class="mx-6 rounded-3xl"></div>
+              <span id="percent">%70</span>
+              </div>
+            </div>
+          <div id="progress-card" class="rounded-3xl" data-scroll data-scroll-speed="2">
+            <a href="https://www.postgresql.org/" target="_blank">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/pngwing.com.png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar3" class="mx-6 rounded-3xl"></div>
+              <span id="percent">%50</span>
+              </div>
+            </div>
+          <div id="progress-card" class="rounded-3xl" data-scroll data-scroll-speed="1" >
+            <a href="https://expressjs.com/" target="_blank">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/node-js-express-js-javascript-solution-stack-web-application-others-237f81086df923da9c2718e6170912c9.png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar4" class="mx-6 rounded-3xl"></div>
+              <span id="percent">%60</span>
+              </div>              
+            </div>
+          <div id="progress-card" class="rounded-3xl" data-scroll data-scroll-speed="1" >
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/javascript-39394.png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar5" class="mx-6 rounded-3xl"></div>
+              <span id="percent">%80</span>
+              </div>              
+            </div>
+            
+          <div id="progress-card" class="rounded-3xl" data-scroll data-scroll-speed="1">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/dfsdf.png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar6" class="mx-6 rounded-3xl"></div>
+              <span id="percent">%85</span>
+              </div>
+            </div>
+
+          <div id="progress-card" class="rounded-3xl" data-scroll >
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/pngwing.com (1).png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar7" class="mx-6 rounded-3xl"></div>
+              <span id="percent">%85</span>
+              </div>
+            </div>
+
+          <div id="progress-card" class="rounded-3xl" data-scroll >
+            <a href="https://aws.amazon.com/what-is/api/#:~:text=API%20stands%20for%20Application%20Programming,other%20using%20requests%20and%20responses.">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/pngwing.com (9).png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar8" class="mx-6 rounded-3xl"></div>
+              <span id="percent">%50</span>
+              </div>
+            </div>
+
+          <div id="progress-card" class="rounded-3xl" data-scroll >
+            <a href="https://getbootstrap.com/">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/pngwing.com (3).png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar9" class="mx-6 rounded-3xl"></div>
+              <span id="percent">%40</span>
+              </div>
+            </div>
+
+          <div id="progress-card" class="rounded-3xl" data-scroll >
+            <a href="https://github.com/">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/pngwing.com (4).png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar10" class="mx-6 rounded-3xl"></div>
+              <span id="percent">%70</span>
+              </div>
+            </div>
+
+          <div id="progress-card" class="rounded-3xl" data-scroll >
+            <a href="https://tailwindcss.com/">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/pngwing.com (2).png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar11" class="mx-6 rounded-3xl"></div>
+              <span id="percent">%60</span>
+              </div>
+            </div>
+
+          <div id="progress-card" class="rounded-3xl" data-scroll >
+            <a href="https://nextjs.org/">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/pngwing.com (5).png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar12" class="mx-6 rounded-3xl"></div>
+              <span id="percent">%30</span>
+              </div>
+            </div>
+
+            <div id="progress-card" class="rounded-3xl" data-scroll >
+              <a href="https://www.mongodb.com/">
+              <img
+                class="h-16 my-4 mx-6"
+                src="/assets/MongoDB_logo_PNG1.png"
+                alt=""
+              />
+              <div class="flex items-center">
+              </a>
+                <div id="progress-bar13" class="mx-6 rounded-3xl"></div>
+                <span id="percent">%30</span>
+                </div>
+              </div>
+  
+          <div id="progress-card" class="rounded-3xl" data-scroll >
+            <a href="https://www.adobe.com/in/products/photoshop.html">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/pngwing.com (6).png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar14" class="mx-6 rounded-3xl"></div>
+              <span id="percent">%40</span>
+              </div>
+            </div>
+
+          <div id="progress-card" class="rounded-3xl" data-scroll >
+            <a href="https://www.adobe.com/in/products/illustrator/campaign/pricing.html?gclid=EAIaIQobChMI5IrD397nhAMVggp7Bx0wZAJVEAAYASAAEgJqbPD_BwE&sdid=QQ42P3HM&mv=search&mv2=paidsearch&ef_id=EAIaIQobChMI5IrD397nhAMVggp7Bx0wZAJVEAAYASAAEgJqbPD_BwE:G:s&s_kwcid=AL!3085!3!248235017693!e!!g!!adobe%20illustrator!221172068!17525759228&gad_source=1">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/pngwing.com (7).png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar15" class="mx-6 rounded-3xl"></div>
+              <span id="percent">%50</span>
+              </div>
+            </div>
+
+          <div id="progress-card" class="rounded-3xl" data-scroll >
+            <a href="https://ejs.co/">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/EJS-Abrv._Green-Grass_High-Res.png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar16" class="mx-6 rounded-3xl"></div>
+              <span id="percent">%90</span>
+              </div>
+            </div>
+
+          <div id="progress-card" class="rounded-3xl" data-scroll >
+            <a href="https://www.figma.com/">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/pngwing.com (8).png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar17" class="mx-6 rounded-3xl"></div>
+              <span id="percent">%80</span>
+              </div>
+            </div>
+
+          <div id="progress-card" class="rounded-3xl" data-scroll >
+            <a href="https://threejs.org/">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/images.png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar18" class="mx-6 rounded-3xl" data-scroll></div>
+              <span id="percent">%10</span>
+              </div>
+            </div>
+
+          <div id="progress-card" class="rounded-3xl">
+            <a href="https://git-scm.com/">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/pngegg(2).png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar19" class="mx-6 rounded-3xl" data-scroll></div>
+              <span id="percent">%60</span>
+              </div>
+            </div>
+
+          <div id="progress-card" class="rounded-3xl">
+            <a href="https://www.passportjs.org/">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/passport.png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar20" class="mx-6 rounded-3xl"></div>
+              <span id="percent">%50</span>
+              </div>
+            </div>
+
+          <div id="progress-card" class="rounded-3xl" >
+            <a href="https://isocpp.org/">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/c++.png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar21" class="mx-6 rounded-3xl" data-scroll></div>
+              <span id="percent">%70</span>
+              </div>
+            </div>
+
+          <div id="progress-card" class="rounded-3xl" >
+            <a href="https://docs.oracle.com/en/java/">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/java.png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar22" class="mx-6 rounded-3xl" data-scroll></div>
+              <span id="percent">%50</span>
+              </div>
+            </div>
+          <div id="progress-card" class="rounded-3xl" >
+            <a href="https://www.python.org/">
+            <img
+              class="h-16 my-4 mx-6"
+              src="/assets/python.png"
+              alt=""
+            />
+            <div class="flex items-center">
+            </a>
+              <div id="progress-bar23" class="mx-6 rounded-3xl" data-scroll></div>
+              <span id="percent">%40</span>
+              </div>
+            </div>
+          </div>
+          <!-- <div id="footer" class="h-20 flex justify-center items-center font-extrabold">
+            &copy;Copyrighted March,2024
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!-- <script src="./scripts/router.js"></script> -->
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
