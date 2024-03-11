@@ -1486,7 +1486,8 @@ textarea::-moz-placeholder {
   /* 2 */
 }
 
-input::-moz-placeholder, textarea::-moz-placeholder {
+input::-moz-placeholder,
+textarea::-moz-placeholder {
   opacity: 1;
   /* 1 */
   color: #9ca3af;
@@ -2313,9 +2314,6 @@ video {
   background-color: #eaeaea;
   color: #252a34;
   /* width: 35%; */
-}
-
-#mobile {
 }
 
 .hover\:scale-110:hover {
